@@ -4,6 +4,7 @@ kosik = []
 print("Vítejte v aplikaci Koledník")
 
 while True: 
+    print("-----------------------------------------")
     print("Ahoj koledníku, co bys rád do košíku?")
     print("-----------------------------------------")
     print("Zde máme výběr: ")
@@ -29,3 +30,11 @@ while True:
     print("Obsah vašeho košíku: ")
     for i in range(len(kosik)): 
         print(f"{i+1}. {kosik[i]}")
+
+    print("Chcete ještě pokračovat?")
+    pokracovani = input("Zadejte 1 pro ano a 0 pro ne: ")
+    if pokracovani == 0: 
+        break
+    elif pokracovani == 1: 
+        #pokracj pls uy chci domu pls komunikuj se mnou pls uy to nedavam chci domu pls funguij
+        
