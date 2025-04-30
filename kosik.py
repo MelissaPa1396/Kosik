@@ -19,7 +19,7 @@ while True:
         volba_int = int(volba)
 
     for i in range(len(nabidka)):
-        if volba == nabidka[i-1] or volba_int == i: 
+        if volba == nabidka[i-1] or volba_int == i-1: 
             kosik.append(nabidka[i-1])
             nabidka.pop(i-1)
             break
@@ -37,4 +37,5 @@ while True:
         break
     elif pokracovani == 1: 
         #pokracj pls uy chci domu pls komunikuj se mnou pls uy to nedavam chci domu pls funguij
+        #ok programe, jetli nebudeš fungovat, task tě kecnu maminc. ano. slyšels moc dobře. tak SPOLUPRACUJ A FUNGUJ!!!!!
         
